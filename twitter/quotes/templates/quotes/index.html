@@ -1,0 +1,18 @@
+{% load static %}
+
+<body bgcolor ="E6E6FA">
+<h1 align="center">SEARCH YOUR NEWS HERE</h1>
+<link rel="stylesheet" type="text/css" href="{% static 'quotes/style.css' %}"/>
+
+<input type =" search" id="mySearch" placeholder="Search Channel">
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script align="center">
+function myFunction() {
+    var x = document.getElementById("mySearch").placeholder;
+    document.getElementById("demo").innerHTML = x;
+}
+</body>
+    
