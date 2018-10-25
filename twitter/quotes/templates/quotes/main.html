@@ -1,0 +1,9 @@
+{% load static %}
+
+<body bgcolor ="E6E6FA">
+<h1 align="center">{{news.author}}</h1>
+<link rel="stylesheet" type="text/css" href="{% static 'quotes/style.css' %}"/>
+<iframe src = {{news.url}} width ="800" height ="1000"></iframe>
+<a href= "{% url 'index'  %}">search again?</a>
+</body>
+    

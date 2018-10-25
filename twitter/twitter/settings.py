@@ -25,7 +25,7 @@ SECRET_KEY = '(%nrepee@!6clywo68w+gpsh_fp^+61l4x)-i$g2v^n#hl9hr9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition

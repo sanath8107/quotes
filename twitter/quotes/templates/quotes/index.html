@@ -1,18 +1,13 @@
-{% load static %}
-
-<body bgcolor ="E6E6FA">
-<h1 align="center">SEARCH YOUR NEWS HERE</h1>
-<link rel="stylesheet" type="text/css" href="{% static 'quotes/style.css' %}"/>
-
-<input type =" search" id="mySearch" placeholder="Search Channel">
+<form 
+action = "web/">
+<input type =" search" id="mySearch" placeholder="Search Channel" value ="abc-news" name ="txtSearch">
 <button onclick="myFunction()">Try it</button>
-
+<p></p>
 <p id="demo"></p>
-
 <script align="center">
 function myFunction() {
-    var x = document.getElementById("mySearch").placeholder;
+    var x = document.getElementById("mySearch").value;
     document.getElementById("demo").innerHTML = x;
 }
-</body>
-    
+</script>
+<form>
